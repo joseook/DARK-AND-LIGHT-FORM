@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login Dark/Light</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        /* Adicione estilos personalizados aqui, se necessário */
+    </style>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <i class="far fa-moon" id = "mode_icon"></i>
+            </div>
+            <div id="social_media">
+                <a href="#">
+                    <img src="assets/imgs/facebook.png" alt="Facebook Logo">
+                </a>
+                <a href="#">
+                    <img src="assets/imgs/github.png" alt="Github Logo">
+                </a>
+                <a href="#">
+                    <img src="assets/imgs/google.png" alt="Google Logo">
+                </a>
+                <a href="#">
+                    <img src="assets/imgs/linkedin.png" alt="LinkedIn Logo">
+                </a>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                       Name
+                       <div class="input-field">
+                        <i class="far fa-user" id="mode_icon"></i>
+                        <input type="text" name="name" id="name">
+                       </div>
+                    </label>
+                </div>
+                
+                <div class="input-box">
+                    <label for="email">
+                       E-mail
+                       <div class="input-field">
+                        <i class="far fa-envelope" id="mode_icon"></i>
+                        <input type="email" name="email" id="email">
+                       </div>
+                    </label>
+                </div>
+                
+                <div class="input-box">
+                    <label for="password">
+                       Password
+                       <div class="input-field">
+                        <i class="fas fa-key" id="mode_icon"></i>
+                        <input type="password" name="password" id="password">
+                       </div>
+                    </label>
+                </div>
+
+                <div id="forgot_password">
+                    <a href="#">Forgot your password?</a>
+                </div>
+            </div>
+
+            <button type ="submit" id = "login_button">
+                Login
+            </button>
+        </form>
+    </main>
+    <script type ="text/javascript" src = "assets/js/script.js"></script>
+</body>
+</html>
