@@ -13,7 +13,9 @@ This is the default part of white mode -->
 
 
 
-And this is the black part of the product
+And this is the black part of the product -->
+
+
 ![captura black](https://github.com/joseook/DARK-AND-LIGHT-FORM/assets/126371426/00b54157-ee2c-4f19-8132-b40fa3bec804)
 
 
